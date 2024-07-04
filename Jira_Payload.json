@@ -1,0 +1,15 @@
+#See the example of payload for your jira api :
+
+payload = json.dumps({
+    "fields": {
+        "project": {
+            "id": "1234"
+        },
+        "summary": "Hello This is Saket",
+        "description": "You are searching for Payload",
+        "issuetype": {
+            "id": "9999999"
+        },
+        "customfield_13244": "Custom field value"
+    }
+})
